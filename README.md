@@ -13,8 +13,6 @@ This project demonstrates a full development-to-deployment workflow:
 - Kubernetes deployment (`kubectl`)  
 - LoadBalancer service exposure  
 
----
-
 ## 🚀 Features
 
 - User Registration  
@@ -23,8 +21,6 @@ This project demonstrates a full development-to-deployment workflow:
 - Easy-to-run Docker container  
 - Kubernetes-ready deployment files  
 - Clean and simple project structure  
-
----
 
 ## 📁 Project Structure
 
@@ -38,14 +34,9 @@ flask-auth-app/
 │── static/
 │── database.db (if using SQLite)
 
-
-
----
-
 ## 🛠 Installation & Setup
 
 ### 1️⃣ Clone the repository
-```bash
 git clone https://github.com/<your-username>/flask-auth-app.git
 cd flask-auth-app
 
