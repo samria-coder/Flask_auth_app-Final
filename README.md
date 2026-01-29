@@ -1,7 +1,7 @@
 # Flask Authentication App (Docker + Kubernetes Deployment)
 
-This project is a simple authentication web application built using **Python Flask**.  
-It supports **user registration** and **login** using a **SQLite/MySQL database**.  
+This project is a simple authentication web application built using Python Flask.  
+It supports **user registration** and **login** using a SQLite/MySQL database.  
 The application is **containerized using Docker**, published to **DockerHub**, and deployed on **Kubernetes** (Minikube or AWS EKS).
 
 This project demonstrates a full development-to-deployment workflow:
@@ -13,7 +13,8 @@ This project demonstrates a full development-to-deployment workflow:
 - Kubernetes deployment (`kubectl`)  
 - LoadBalancer service exposure  
 
-## 🚀 Features
+
+🚀 Features
 
 - User Registration  
 - User Login  
@@ -22,7 +23,7 @@ This project demonstrates a full development-to-deployment workflow:
 - Kubernetes-ready deployment files  
 - Clean and simple project structure  
 
-## 📁 Project Structure
+📁 Project Structure
 
 flask-auth-app/
 │── app.py
@@ -34,9 +35,9 @@ flask-auth-app/
 │── static/
 │── database.db (if using SQLite)
 
-## 🛠 Installation & Setup
+Installation & Setup
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 git clone https://github.com/<your-username>/flask-auth-app.git
 cd flask-auth-app
 
