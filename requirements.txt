@@ -1,0 +1,4 @@
+flask
+flask-bcrypt
+flask-login
+#mysql-connector-python   # if using MySQL
