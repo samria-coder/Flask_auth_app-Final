@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-auth-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-auth
+  template:
+    metadata:
+      labels:
+        app: flask-auth
+    spec:
+      containers:
+      - name: flask-auth
+        image: samrom17/flask-auth-app-v1:latest
+        ports:
+        - containerPort: 5000
+        volumeMounts:
+        - name: flask-db
+          mountPath: /app/db
+      volumes:
+      - name: flask-db
+        persistentVolumeClaim:
+          claimName: flask-db-pvc
